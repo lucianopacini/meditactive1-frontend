@@ -66,7 +66,7 @@ function App() {
     };
 
     fetchData();
-  }, []);
+  }, [api]);
 
   // --- FILTRO INTERVALLI ---
   const applyFilter = async () => {
